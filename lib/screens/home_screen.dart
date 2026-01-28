@@ -4,6 +4,8 @@ import '../widgets/categories_list_view.dart';
 import '../widgets/custom_app_bar.dart';
 import '../widgets/flash_sale_section.dart';
 import '../widgets/popular_products_section.dart';
+import '../widgets/RecommendedProductsSection.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -39,6 +41,8 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               CategoriesListView(),
+              const SizedBox(height: 16),
+              const RecommendedSection(),
               const SizedBox(height: 16),
               FlashSaleSection(),
               const SizedBox(height: 16),
